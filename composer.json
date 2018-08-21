@@ -1,6 +1,6 @@
 {
     "name": "m165437/eloquent-numbered",
-    "description": "Numbering of eloquent models",
+    "description": "Sequentially numbers your Eloquent model instances",
     "homepage": "https://github.com/m165437/eloquent-numbered",
     "authors": [
         {
