@@ -1,5 +1,10 @@
 # Numbered Eloquent Models
 
+[![GitHub release](https://img.shields.io/github/release/M165437/eloquent-numbered.svg)](https://github.com/M165437/eloquent-numbered/releases/latest)
+[![Unstable](https://img.shields.io/badge/unstable-master-orange.svg)](https://github.com/M165437/eloquent-numbered/tree/master)
+[![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat&colorB=458979)](https://github.com/M165437/eloquent-numbered/blob/master/LICENSE.md)
+[![Twitter](https://img.shields.io/badge/twitter-@M165437-blue.svg?style=flat&colorB=00aced)](http://twitter.com/M165437)
+
 This package sequentially numbers your Eloquent model instances, constrained by a [scope](https://laravel.com/docs/master/eloquent#local-scopes) `numbered` that you customize.
 
 On every `created`, `deleted`, `updated` and `restored` event, the models in the scope get renumbered.
